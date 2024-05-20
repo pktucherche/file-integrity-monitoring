@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style/style_offline.css">
+        <title>File Integrity Monitoring</title>
+        <style>{}</style>
+    </head>
+    <body>
+        <div class="menu">
+            <div class="menu-item">File Integrity Monitoring</div>
+            <div class="menu-controls">
+                <div class="status offline">Offline</div>
+                <a href="http://127.0.0.1:6077/start" class="btn">Start</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <form class="line" action="http://127.0.0.1:6077/add" method="get">
+                <input type="text" name="path" class="path-input" placeholder="Enter path...">
+                <button type="submit" class="btn add-btn">Add</button>
+            </form>
+        </div>
+
+        <div class="path-container">
+            <!---->
+        </div>
+    </body>
+</html>

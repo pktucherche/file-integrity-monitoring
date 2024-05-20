@@ -1,0 +1,13 @@
+[package]
+name = "fileintegritymonitoring"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+inotify = "0.10"
+actix-web = "4"
+nix = "0.23"
+rusqlite = "0.28.0"
+diffy="0.3.0"

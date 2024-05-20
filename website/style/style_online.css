@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.menu-item {
+    font-size: 1.2em;
+}
+
+.menu-controls {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 8px 16px;
+    margin-left: 30px;
+    border: none;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #777;
+}
+
+.status {
+    padding: 8px 12px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.online {
+    background-color: #2ecc71;
+}
+
+.offline {
+    background-color: #e74c3c;
+}
+
+.events {
+    margin: 20px;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.event-path {
+    flex: 1;
+}
+
+.event-indicator {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.event-indicator-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.event-date {
+    margin-right: 20px;
+}
+
+.event-link {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.event-link:hover {
+    text-decoration: underline;
+}
+
+.indicator-modify .event-indicator-circle {
+    background-color: #f1c40f;
+}
+
+.indicator-modify .event-indicator-label {
+    color: #f1c40f;
+}
+
+.indicator-delete .event-indicator-circle {
+    background-color: #e74c3c;
+}
+
+.indicator-delete .event-indicator-label {
+    color: #e74c3c;
+}
+
+.indicator-create .event-indicator-circle {
+    background-color: #2ecc71;
+}
+
+.indicator-create .event-indicator-label {
+    color: #2ecc71;
+}
+
+.indicator-moved_from .event-indicator-circle,
+.indicator-moved_to .event-indicator-circle {
+    background-color: #3498db;
+}
+
+.indicator-moved_from .event-indicator-label,
+.indicator-moved_to .event-indicator-label {
+    color: #3498db;
+}

@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.menu-item {
+    font-size: 1.2em;
+}
+
+.menu-controls {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 8px 16px;
+    margin-left: 30px;
+    border: none;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #777;
+}
+
+.status {
+    padding: 8px 12px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.online {
+    background-color: #2ecc71;
+}
+
+.offline {
+    background-color: #e74c3c;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 7vh;
+}
+
+.path-input {
+    flex: 1;
+    padding: 8px;
+}
+
+.add-btn {
+    padding: 10px 25px;
+    font-size: 15px;
+    margin-left: 0;
+    border: none;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+    background-color: #777;
+}
+
+.path-container {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.path-item {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.path-text {
+    flex: 1;
+    border: 1px solid #555;
+    padding: 6px;
+    padding-bottom: 7px;
+    margin-left: auto;
+}
+
+.remove-btn {
+    padding: 9px 9px;
+    border: none;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: auto;
+}
+
+.remove-btn:hover {
+    background-color: #c0392b;
+}
