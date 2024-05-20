@@ -1,5 +1,5 @@
 # file-integrity-monitoring
-Ce projet en Rust surveille les opérations (modifications, créations, suppressions, déplacements, etc.).
+Ce projet en Rust surveille les opérations (modifications, créations, suppressions, déplacements, etc.) sur des dossiers et fichiers.
 
 ## Utilisation
 ```
